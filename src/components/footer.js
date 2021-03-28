@@ -1,5 +1,4 @@
 import * as React from "react"
-import './style.css';
 
 const Footer = () => (
   <footer className="footer py-4">
