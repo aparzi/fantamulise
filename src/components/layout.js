@@ -10,14 +10,14 @@ import PropTypes from "prop-types"
 import '../css/style.css';
 
 import Footer from "./footer"
-import Navbar from "./navbar"
+import Navigation from "./navigation"
 import Header from "./header"
 
 const Layout = ({ children }) => {
 
   return (
     <>
-      <Navbar/>
+      <Navigation/>
       <Header/>
         <main>{children}</main>
       <Footer/>

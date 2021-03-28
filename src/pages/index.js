@@ -1,15 +1,20 @@
 import * as React from "react"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
 import Services from "../components/services"
+import Competition from "../components/competition"
+import About from "../components/about"
+import Team from "../components/team"
+import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
+    <SEO title={'Home'}/>
     <Services/>
-    <SEO title="Home" />
+    <Competition/>
+    <About/>
+    <Team/>
     {/*<h1>Hi people</h1>*/}
-    {/*<p>Welcome to your new Gatsby site.</p>*/}
     {/*<p>Now go build something great.</p>*/}
     {/*<StaticImage*/}
     {/*  src="../images/gatsby-astronaut.png"*/}
