@@ -11,8 +11,7 @@ const Footer = () => (
           <a className="btn btn-dark btn-social mx-2" href="#!"><i className="fab fa-linkedin-in"></i></a>
         </div>
         <div className="col-lg-4 text-lg-right">
-          <a className="mr-3" href="#!">Privacy Policy</a>
-          <a href="#!">Terms of Use</a>
+          <a className="mr-3" href="https://www.angeloparziale.it" target="_blank">AParziale</a>
         </div>
       </div>
     </div>
