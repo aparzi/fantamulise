@@ -14,7 +14,7 @@ const Navigation = () => (
         <Nav.Link href="#home" className="text-uppercase">Home</Nav.Link>
         <Nav.Link href="#fantacalcio" className="text-uppercase">Fantacalcio</Nav.Link>
         <Nav.Link href="#competitions" className="text-uppercase">Competizioni</Nav.Link>
-        <Nav.Link href="#teams" className="text-uppercase">Teams</Nav.Link>
+        <Nav.Link href="#team" className="text-uppercase">Teams</Nav.Link>
       </Nav>
     </Navbar.Collapse>
   </Navbar>

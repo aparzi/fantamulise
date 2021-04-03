@@ -10,28 +10,14 @@ import { Helmet } from "react-helmet"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title={'Home'}/>
-    <Services/>
-    <Competition/>
-    <About/>
-    <Team/>
-    {/*<h1>Hi people</h1>*/}
-    {/*<p>Now go build something great.</p>*/}
-    {/*<StaticImage*/}
-    {/*  src="../images/gatsby-astronaut.png"*/}
-    {/*  width={300}*/}
-    {/*  quality={95}*/}
-    {/*  formats={["AUTO", "WEBP", "AVIF"]}*/}
-    {/*  alt="A Gatsby astronaut"*/}
-    {/*  style={{ marginBottom: `1.45rem` }}*/}
-    {/*/>*/}
-    {/*<p>*/}
-    {/*  <Link to="/page-2/">Go to page 2</Link> <br />*/}
-    {/*  <Link to="/using-typescript/">Go to "Using TypeScript"</Link>*/}
-    {/*</p>*/}
-      <Helmet>
-          <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" type="text/javascript" />
-      </Helmet>
+    <SEO title={"Home"} />
+    <Services />
+    <Competition />
+    <About />
+    <Team />
+    <Helmet>
+      <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" type="text/javascript" />
+    </Helmet>
   </Layout>
 )
 

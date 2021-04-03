@@ -1,50 +1,91 @@
 import { StaticImage } from "gatsby-plugin-image"
 import * as React from "react"
+import OwlCarousel from 'react-owl-carousel';
+
 
 const Team = () => (
   <section className="page-section bg-light" id="team">
     <div className="container">
       <div className="text-center">
-        <h2 className="section-heading text-uppercase">Our Amazing Team</h2>
-        <h3 className="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+        <h2 className="section-heading text-uppercase">Team</h2>
+        <h3 className="section-subheading text-muted">Le squadre della nostra lega.</h3>
       </div>
-      <div className="row">
-        <div className="col-lg-4">
+      <OwlCarousel className='owl-theme' loop={true} margin={7} items={4} nav>
+        <div className='item'>
           <div className="team-member">
-            <StaticImage src={'../images/team/1.jpg'} alt={'Team 1'} />
-            <h4>Kay Garland</h4>
-            <p className="text-muted">Lead Designer</p>
-            <a className="btn btn-dark btn-social mx-2" href="#!"><i className="fab fa-twitter"></i></a>
-            <a className="btn btn-dark btn-social mx-2" href="#!"><i className="fab fa-facebook-f"></i></a>
-            <a className="btn btn-dark btn-social mx-2" href="#!"><i className="fab fa-linkedin-in"></i></a>
+            <StaticImage src={'../images/team/dinhoTeam.png'} alt={'DinhoTeam'} style={{width: '250px', height: '250px'}}/>
+            <h4>DinhoTeam</h4>
+            <p className="text-muted">aparziale</p>
           </div>
         </div>
-        <div className="col-lg-4">
+        <div className='item'>
           <div className="team-member">
-            <StaticImage src={'../images/team/2.jpg'} alt={'Team 2'} />
-            <h4>Larry Parker</h4>
-            <p className="text-muted">Lead Marketer</p>
-            <a className="btn btn-dark btn-social mx-2" href="#!"><i className="fab fa-twitter"></i></a>
-            <a className="btn btn-dark btn-social mx-2" href="#!"><i className="fab fa-facebook-f"></i></a>
-            <a className="btn btn-dark btn-social mx-2" href="#!"><i className="fab fa-linkedin-in"></i></a>
+            <StaticImage src={'../images/team/astonBirra.png'} alt={'astonBirra'} style={{width: '250px', height: '250px'}}/>
+            <h4>fc Aston birra</h4>
+            <p className="text-muted">jz4mik</p>
           </div>
         </div>
-        <div className="col-lg-4">
+        <div className='item'>
           <div className="team-member">
-            <StaticImage src={'../images/team/3.jpg'} alt={'Team 3'} />
-            <h4>Diana Petersen</h4>
-            <p className="text-muted">Lead Developer</p>
-            <a className="btn btn-dark btn-social mx-2" href="#!"><i className="fab fa-twitter"></i></a>
-            <a className="btn btn-dark btn-social mx-2" href="#!"><i className="fab fa-facebook-f"></i></a>
-            <a className="btn btn-dark btn-social mx-2" href="#!"><i className="fab fa-linkedin-in"></i></a>
+            <StaticImage src={'../images/team/atleticoMaNonTroppo.png'} alt={'atleticoMaNonTroppo'} style={{width: '250px', height: '250px'}}/>
+            <h4>Atleticomanontroppo FC</h4>
+            <p className="text-muted">scamone73</p>
           </div>
         </div>
-      </div>
-      <div className="row">
-        <div className="col-lg-8 mx-auto text-center"><p className="large text-muted">Lorem ipsum dolor sit amet,
-          consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis
-          ea, alias ut unde.</p></div>
-      </div>
+        <div className='item'>
+          <div className="team-member">
+            <StaticImage src={'../images/team/calcioSamba.png'} alt={'calcioSamba'} style={{width: '250px', height: '250px'}}/>
+            <h4>Calcio Samba</h4>
+            <p className="text-muted">dada82dada82</p>
+          </div>
+        </div>
+        <div className='item'>
+          <div className="team-member">
+            <StaticImage src={'../images/team/cbForever.png'} alt={'cbForever'} style={{width: '250px', height: '250px'}}/>
+            <h4>cb forever</h4>
+            <p className="text-muted">Antonio</p>
+          </div>
+        </div>
+        <div className='item'>
+          <div className="team-member">
+            <StaticImage src={'../images/team/cskaLaRissa.png'} alt={'cskaLaRissa'} style={{width: '250px', height: '250px'}}/>
+            <h4>CSKA La Rissa</h4>
+            <p className="text-muted">FrancescoGuerriero</p>
+          </div>
+        </div>
+        <div className='item'>
+          <div className="team-member">
+            <StaticImage src={'../images/team/eva1432.png'} alt={'eva1432'} style={{width: '250px', height: '250px'}}/>
+            <h4>Eva1432</h4>
+            <p className="text-muted">Eva1432</p>
+          </div>
+        </div>
+        <div className='item'>
+          <div className="team-member">
+            <StaticImage src={'../images/team/mazzamaurielle.png'} alt={'mazzamaurielle'} style={{width: '250px', height: '250px'}}/>
+            <h4>Mazzamaurielle</h4>
+            <p className="text-muted">domenicomazzamaurielle</p>
+          </div>
+        </div>
+        <div className='item'>
+          <div className="team-member">
+            <StaticImage src={'../images/team/polesiana.png'} alt={'polesiana'} style={{width: '250px', height: '250px'}}/>
+            <h4>Polesiana</h4>
+            <p className="text-muted">libero80m</p>
+          </div>
+        </div>
+        <div className='item'>
+          <div className="team-member">
+            <StaticImage src={'../images/team/teamChiappetto.png'} alt={'teamChiappetto'} style={{width: '250px', height: '250px'}}/>
+            <h4>Team Chiappetto</h4>
+            <p className="text-muted">Lommy85</p>
+          </div>
+        </div>
+      </OwlCarousel>
+
+
+
+
     </div>
   </section>
 )
