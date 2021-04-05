@@ -1,6 +1,6 @@
 import { StaticImage } from "gatsby-plugin-image"
 import * as React from "react"
-import OwlCarousel from 'react-owl-carousel';
+import { Carousel } from 'react-responsive-carousel';
 
 
 const Team = () => (
@@ -10,13 +10,11 @@ const Team = () => (
         <h2 className="section-heading text-uppercase">Team</h2>
         <h3 className="section-subheading text-muted">Le squadre della nostra lega.</h3>
       </div>
-      <OwlCarousel className='owl-theme' loop={true} margin={7} items={4} nav>
-        <div className='item'>
-          <div className="team-member">
-            <StaticImage src={'../images/team/dinhoTeam.png'} alt={'DinhoTeam'} style={{width: '250px', height: '250px'}}/>
-            <h4>DinhoTeam</h4>
-            <p className="text-muted">aparziale</p>
-          </div>
+      <Carousel autoPlay={true} infiniteLoop={true} emulateTouch={true}>
+        <div className="team-member">
+          <StaticImage src={'../images/team/dinhoTeam.png'} alt={'DinhoTeam'} style={{width: '250px', height: '250px'}}/>
+          <h4>DinhoTeam</h4>
+          <p className="text-muted">aparziale</p>
         </div>
         <div className='item'>
           <div className="team-member">
@@ -81,7 +79,7 @@ const Team = () => (
             <p className="text-muted">Lommy85</p>
           </div>
         </div>
-      </OwlCarousel>
+      </Carousel>
     </div>
   </section>
 )
