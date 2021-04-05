@@ -82,10 +82,6 @@ const Team = () => (
           </div>
         </div>
       </OwlCarousel>
-
-
-
-
     </div>
   </section>
 )

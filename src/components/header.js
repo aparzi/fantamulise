@@ -2,7 +2,7 @@ import * as React from "react"
 import { withPrefix } from "gatsby-link"
 
 const Header = () => (
-  <header className="masthead">
+  <header id="home" className="masthead">
     <div className="container">
       <div className="masthead-subheading">Welcome to Fantacalcio Molise!</div>
       <div className="masthead-heading text-uppercase">Lega Fantamulise</div>

@@ -15,6 +15,8 @@ const IndexPage = () => (
     <Competition />
     <About />
     <Team />
+
+    {/* Custom-Script */}
     <Helmet>
       <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" type="text/javascript" />
     </Helmet>

@@ -14,8 +14,7 @@ const Services = () => (
               <i className="fas fa-heartbeat fa-stack-1x fa-inverse font-size-3rem"/>
           </span>
           <h4 className="my-3">Passione</h4>
-          <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam
-            architecto quo inventore harum ex magni, dicta impedit.</p>
+          <p className="text-muted">Tutti i partecipanti della lega Fantamulise condividono un unico grande ideale... La passione per il Fantacalcio.</p>
         </div>
         <div className="col-md-4">
           <span className="fa-stack fa-2x mb-4">
@@ -23,8 +22,7 @@ const Services = () => (
               <i className="fas fa-smile fa-stack-1x fa-inverse font-size-3rem"/>
           </span>
           <h4 className="my-3">Divertimento</h4>
-          <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam
-            architecto quo inventore harum ex magni, dicta impedit.</p>
+          <p className="text-muted">La lega Fantamulise è basata su semplici ideali, per garantire il benessere tra i fantallenatori... Serietà ma soprattutto il divertimento.</p>
         </div>
         <div className="col-md-4">
           <span className="fa-stack fa-2x mb-4">
@@ -32,8 +30,7 @@ const Services = () => (
               <i className="fas fa-trophy fa-stack-1x fa-inverse font-size-3rem"/>
           </span>
           <h4 className="my-3">Competizione</h4>
-          <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam
-            architecto quo inventore harum ex magni, dicta impedit.</p>
+          <p className="text-muted">Come in un buon fantacalcio che si rispetti... All'interno della lega Fantamulise non poteva mancare un po di sana competizione.</p>
         </div>
       </div>
     </div>
