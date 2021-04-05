@@ -7,45 +7,32 @@ const About = () => (
     <div className="container">
       <div className="text-center">
         <h2 className="section-heading text-uppercase">About</h2>
-        <h3 className="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+        <h3 className="section-subheading text-muted">L'albo d'oro delle principali competizioni.</h3>
       </div>
       <ul className="timeline">
-        <li>
-          <div className="timeline-image">
-            <StaticImage src={'../images/about/1.jpg'} alt={'Image story'} />
-          </div>
-          <div className="timeline-panel">
-            <div className="timeline-heading">
-              <h4>2009-2011</h4>
-              <h4 className="subheading">Our Humble Beginnings</h4>
-            </div>
-            <div className="timeline-body"><p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing
-              elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero
-              unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
-          </div>
-        </li>
         <li className="timeline-inverted">
           <div className="timeline-image">
-            <StaticImage src={'../images/about/4.jpg'} alt={'Image story'} />
+            <StaticImage className="rounded-circle img-fluid" src={'../images/about/start.jpeg'} alt={'Image story'} />
           </div>
           <div className="timeline-panel">
             <div className="timeline-heading">
-              <h4>July 2014</h4>
-              <h4 className="subheading">Phase Two Expansion</h4>
+              <h4>Agosto 2020</h4>
+              <h4 className="subheading">Inizio lega Fantamulise</h4>
             </div>
-            <div className="timeline-body"><p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing
-              elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero
-              unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+            <div className="timeline-body"><p className="text-muted">
+              La fantalega Fantamulise inizia a prendere forma nell'agosto 2020 iniziando a scrivere le prime righe del regolamento.
+              Un mese più tardi, è tutto pronto per la prima asta della storia della lega. I dieci fantallenatori si sono riuniti di persona e visti i tempi
+              della pandemia non è facile farla di persona ma sono state rispettate tutte le norme sanitarie.</p></div>
           </div>
         </li>
         <li className="timeline-inverted">
           <div className="timeline-image">
             <h4>
-              Be Part
+              Segui
               <br />
-              Of Our
+              la nostra
               <br />
-              Story!
+              Storia!
             </h4>
           </div>
         </li>
