@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `FantaMulise`,
     description: `Website of the fantacalcio FantaMulise league.`,
-    author: `@gatsbyjs`,
+    author: `@AParziale`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
