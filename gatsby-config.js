@@ -3,6 +3,80 @@ module.exports = {
     title: `FantaMulise`,
     description: `Website of the fantacalcio FantaMulise league.`,
     author: `@AParziale`,
+    navigation: [
+      {
+        anchor: "#home",
+        label: "Home",
+      },
+      {
+        anchor: "#fantacalcio",
+        label: "Fantacalcio",
+      },
+      {
+        anchor: "#competitions",
+        label: "Competizioni",
+      },
+      {
+        anchor: "#about",
+        label: "About",
+      },
+      {
+        anchor: "#team",
+        label: "Teams",
+      }
+    ],
+    teams: [
+      {
+        name: 'DinhoTeam',
+        coach: 'aparziale',
+        imageName: 'dinhoTeam.png'
+      },
+      {
+        name: 'fc Aston birra',
+        coach: 'jz4mik',
+        imageName: 'astonBirra.png'
+      },
+      {
+        name: 'Atleticomanontroppo FC',
+        coach: 'scamone73',
+        imageName: 'atleticoMaNonTroppo.png'
+      },
+      {
+        name: 'Calcio Samba',
+        coach: 'dada82dada82',
+        imageName: 'calcioSamba.png'
+      },
+      {
+        name: 'cb forever',
+        coach: 'Antonio',
+        imageName: 'cbForever.png'
+      },
+      {
+        name: 'CSKA La Rissa',
+        coach: 'FrancescoGuerriero',
+        imageName: 'cskaLaRissa.png'
+      },
+      {
+        name: 'Eva1432',
+        coach: 'Eva1432',
+        imageName: 'eva1432.png'
+      },
+      {
+        name: 'Mazzamaurielle',
+        coach: 'domenicomazzamaurielle',
+        imageName: 'mazzamaurielle.png'
+      },
+      {
+        name: 'Polesiana',
+        coach: 'libero80m',
+        imageName: 'polesiana.png'
+      },
+      {
+        name: 'Team Chiappetto',
+        coach: 'Lommy85',
+        imageName: 'teamChiappetto.png'
+      }
+    ]
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
